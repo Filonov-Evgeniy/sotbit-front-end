@@ -1,0 +1,270 @@
+body {
+    font-family: "Montserrat";
+    min-width: 320px;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #FFFFFF;
+}
+
+.header-item {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-wrap: nowrap;
+}
+
+.header-item img {
+    margin-right: 4%;
+}
+
+.banner {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 1080px;
+    padding-left: 1%;
+    background: linear-gradient(#F1F5FE, #D1EEFC);
+}
+
+@media (min-width: 320px) {
+    .banner {
+        background-image: url('media/background/320.png');
+        height: 629px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .banner-title.first {
+        display: none;
+    }
+
+    .banner-text.first {
+        display: none;
+    }
+
+    .phone {
+        display: none;
+    }
+
+    .banner-items {
+        height: 45%;
+        padding-top: 1px;
+        position: absolute;
+        top: 5%;
+    }
+
+    .support {
+        display:none;
+    }
+
+    .basket {
+        display:none;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .region {
+        display: none;
+    }
+
+    .item {
+        width: 90%;
+    }
+
+    .banner-title {
+        font-size: 32px;
+    }
+}
+@media (min-width: 768px) {
+    .banner {
+        background-image: url('media/background/768.png');
+        height: 1024px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .banner-title.first {
+        display: none;
+    }
+
+    .banner-text.first {
+        display: none;
+    }
+
+    .support {
+        display:block;
+    }
+
+    .basket {
+        display:block;
+    }
+
+    .region {
+        display: block;
+    }
+
+    .item {
+        width: 45%;
+    }
+}
+@media (min-width: 1024px) {
+    .banner {
+        background-image: url('media/background/1024.png');
+        height: 768px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-title.first {
+        display: none;
+    }
+
+    .banner-text.first {
+        display: none;
+    }
+
+    .phone {
+        display: block;
+    }
+
+    .banner-items {
+        width: 45%;
+        padding-left: 1px;
+        position: absolute;
+        left: 5%;
+        top:30%;
+    }
+
+    .item {
+        width: 30%;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+}
+@media (min-width: 1440px) {
+    .banner {
+        background-image: url('media/background/1440.png');
+        height: 1024px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-title.first {
+        display: none;
+    }
+
+    .banner-title.second {
+        display: block;
+    }
+
+    .banner-text.first {
+        display: none;
+    }
+
+    .banner-text.second {
+        display: block;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .banner-title {
+        font-size: 52px;
+    }
+}
+@media (min-width: 1920px) {
+    .banner {
+        background-image: url('media/background/Баннер\ в\ карусель_1920.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .banner-title.first {
+        display: block;
+    }
+
+    .banner-title.second {
+        display: none;
+    }
+
+    .banner-text.first {
+        display: block;
+    }
+
+    .banner-text.second {
+        display: none;
+    }
+
+    .banner-title {
+        font-size: 60px;
+    }
+}
+
+.banner-items ol {
+    color: #2D3448;
+    font-size: 16px;
+}
+
+.banner-text {
+    color: #2D3448;
+    font-size: 16px;
+}
+
+.left-arrow {
+    position: absolute;
+    left:0%;
+}
+
+.right-arrow {
+    position:absolute;
+    right:0%;
+}
+
+.page-bar {
+    position: relative;
+    right:50%;
+    top:45%;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item p {
+    font-size: 16px;
+    color:gray;
+}
+
+.item h5 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.component {
+    margin-bottom: 7px;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
