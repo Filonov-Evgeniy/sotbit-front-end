@@ -18,11 +18,12 @@ body {
     align-items: center;
     width: 50%;
     flex-wrap: nowrap;
+    column-gap: 4%;
 }
 
-.header-item img {
+/* .header-item a {
     margin-right: 4%;
-}
+} */
 
 .banner {
     display: flex;
@@ -222,6 +223,15 @@ body {
     font-size: 16px;
 }
 
+.banner-bold-text {
+    font-style: oblique;
+    color: #2D3448;
+}
+
+.banner-bold-text-grey {
+    opacity: .3;
+}
+
 .left-arrow {
     position: absolute;
     left:0%;
@@ -243,6 +253,9 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 80%;
+    margin-inline: 10%;
+    row-gap: 10px;
 }
 
 .item p {
@@ -259,12 +272,30 @@ h2 {
 }
 
 .component {
-    margin-bottom: 7px;
+    margin-block: 15px;
+}
+
+p .component {
+    font-size: 16px;
+}
+
+.service {
+    margin-left: 11%;
+    font-family: "Montserrat";
+    font-style: oblique;
+    color: #2D3448;
 }
 
 @font-face {
     font-family: "Montserrat";
     src: url(fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
     font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(fonts/Montserrat/Montserrat-Bold.ttf) format("truetype");
+    font-style: oblique;
     font-weight: normal;
 }
