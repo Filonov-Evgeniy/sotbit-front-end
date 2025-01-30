@@ -264,9 +264,9 @@ body {
 }
 
 .page-bar {
-    position: relative;
+    position: absolute;
     right:50%;
-    top:45%;
+    bottom: 5%;
 }
 
 .list {
@@ -318,6 +318,12 @@ p .component {
     transform: scale(1.1);
     transition: transform .4s ease;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+.icon {
+    display: block;
+    height: 60px;
+    width: 60px;
 }
 
 @font-face {
